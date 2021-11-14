@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+i{
+    width: 16px;
+    height: 16px;
+}
+.Day{
+    display: none;
+    width: 56px;
+    height: 28px;
+    background: #0984E3;
+    border-radius: 14px;
+    position: relative;
+}
+.night{
+    display: none;
+    width: 56px;
+    height: 28px;
+    background: #032B43;
+    border-radius: 14px;
+    position: relative;
+}
+.Day i{
+    color: #FFE4A1;
+    position: absolute;
+    left: 63.03%;
+    right: 33.41%;
+    top: 21%;
+    bottom: 47.29%;
+}
+.night i{
+    color: #B9C6D3;
+    ;
+    position: absolute;
+    left: 12.79%;
+    right: 39.64%;
+    top: 29.93%;
+    bottom: 47.29%;
+
+}
+.active{
+    display: block;
+}
+.night svg{
+    position: absolute;
+    left: 45%;
+}
+.active{
+    display: block;
+}
