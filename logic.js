@@ -5,6 +5,7 @@ function toogle(){
         day.classList.remove('active');
         night.classList.add('active');
         document.body.style.background = "black";
+        night.style.background = 'white';
     }
 }
 function toogle1(){
